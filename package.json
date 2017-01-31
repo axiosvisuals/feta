@@ -1,0 +1,9 @@
+{
+  "name": "axios-feta",
+  "version": "0.0.1",
+  "description": "Axios' CSS styleguide and library.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axioscode/feta/"
+  },
+}
