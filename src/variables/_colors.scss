@@ -6,15 +6,70 @@ $grey:               #c2c2c2 !default;
 $grey-light:         #dcdcdc !default;
 $grey-lighter:       #F0F0F0 !default;
 $grey-lightest:      #F9F9F9 !default;
-$blue:               #008dc8 !default;
-$blue-secondary:     #175B87 !default;
-$navy:               #01356E !default;
-$navy-secondary:     #175B87 !default;
-$red:                #E74E2A !default;
-$red-secondary:      #AB361A !default;
-$orange:             #FF6602 !default;
-$orange-secondary:   #CA5508 !default;
-$khaki:              #B09D86 !default;
-$khaki-secondary:    #7F684E !default;
-$purple:             #5827AE !default;
-$purple-secondary:   #310F6B !default;
+
+// Primary Colors
+$color-axios-black: #222222;
+
+// UI Greys
+$color-body-text: #4a4a4a;
+$color-site-background: #f0f0f0;
+
+// Axios Blue Tones
+$color-axios-blue-100: #96d8ff;
+$color-axios-blue-200: #75cdf9;
+$color-axios-blue-300: #3faff3;
+$color-axios-blue-400: #069cda;
+$color-axios-blue-500: #008dc8;
+$color-axios-blue-600: #027bb9;
+$color-axios-blue-700: #0064a3;
+$color-axios-blue-800: #004e89;
+$color-axios-blue-900: #01356e;
+$color-axios-blue: $color-axios-blue-500;
+
+// Tomato Tones
+$color-tomato-100: #ffd1c6;
+$color-tomato-200: #ffb3a0;
+$color-tomato-300: #fb937a;
+$color-tomato-400: #f97353;
+$color-tomato-500: #e74e29;
+$color-tomato-600: #d9421e;
+$color-tomato-700: #ca330f;
+$color-tomato-800: #ba2f0e;
+$color-tomato-900: #b1290a;
+$color-tomato: $color-tomato-500;
+
+// Orange Tones
+$color-orange-100: #ffd7b2;
+$color-orange-200: #ffd0a1;
+$color-orange-300: #ffb87e;
+$color-orange-400: #ff9b5a;
+$color-orange-500: #ff7921;
+$color-orange-600: #ff6602;
+$color-orange-700: #f35d00;
+$color-orange-800: #e15300;
+$color-orange-900: #d44b00;
+$color-orange: $color-orange-500;
+
+// Purple Tones
+$color-purple-100: #d1cdff;
+$color-purple-200: #b7b0ff;
+$color-purple-300: #9686f7;
+$color-purple-400: #7d61e1;
+$color-purple-500: #6741d4;
+$color-purple-600: #602fca;
+$color-purple-700: #551bb7;
+$color-purple-800: #4713a2;
+$color-purple-900: #3d0e87;
+$color-purple: $color-purple-500;
+
+// Khaki Tones
+$color-khaki-100: #ebe2d7;
+$color-khaki-200: #dbcfc1;
+$color-khaki-300: #d3c3af;
+$color-khaki-400: #c1af9a;
+$color-khaki-500: #b09d86;
+$color-khaki-600: #a8947b;
+$color-khaki-700: #a18c72;
+$color-khaki-800: #947f65;
+$color-khaki-900: #846f55;
+$color-khaki: $color-khaki-500;
