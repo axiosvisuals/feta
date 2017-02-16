@@ -56,6 +56,17 @@ $color-map: (
     800: #947f65,
     900: #846f55,
   ),
+  gray: (
+    100: #f5f5f5,
+    200: #dcdcdc,
+    300: #c2c2c2,
+    400: #a9a9a9,
+    500: #979797,
+    600: #858585,
+    700: #696969,
+    800: #4a4a4a,
+    900: #222222,
+  ),
 );
 
 // Writing map-get(map-get(...)) is annoying so this utility function compresses it into a single
@@ -124,21 +135,22 @@ $color-khaki-800: color-get(khaki, 800);
 $color-khaki-900: color-get(khaki, 900);
 $color-khaki: $color-khaki-500;
 
-// Grey
-// @TODO: Give them saturation values.
-$grey-darkest:       #222222 !default;
-$grey-darker:        #4A4A4A !default;
-$grey-dark:          #848484 !default;
-$grey:               #c2c2c2 !default;
-$grey-light:         #dcdcdc !default;
-$grey-lighter:       #F0F0F0 !default;
-$grey-lightest:      #F9F9F9 !default;
+// Gray Tones
+$color-gray-100: color-get(gray, 100);
+$color-gray-200: color-get(gray, 200);
+$color-gray-300: color-get(gray, 300);
+$color-gray-400: color-get(gray, 400);
+$color-gray-500: color-get(gray, 500);
+$color-gray-600: color-get(gray, 600);
+$color-gray-700: color-get(gray, 700);
+$color-gray-800: color-get(gray, 800);
+$color-gray-900: color-get(gray, 900);
 
 // Primary Colors
-$color-axios-black: #222222;
+$color-axios-black: $color-gray-900;
 
-// UI Greys
-$color-body-text: #4a4a4a;
-$color-site-background: #f0f0f0;
+// UI grays
+$color-body-text: $color-gray-800;
+$color-site-background: $color-gray-100;
 
 
