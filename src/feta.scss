@@ -1,4 +1,8 @@
-@import 'helpers/variables';
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/spacing";
+@import "variables/typography";
+
 @import 'helpers/mixins';
 @import 'base/normalize';
 @import 'base/reset';

@@ -1,36 +1,5 @@
-# feta
-Feta is Axios' CSS styleguide. Sprinkle it on your project for maximum flavor.
-
-## Variables
-
-Variables cam be edited in `src/variables`
-
-### Typography
-
-```scss
-// FONTS
-$sans: "Gordita", Helvetica, Arial, sans-serif !default;
-$serif: "Atiza", Georgia, serif !default;
-$mono: "Liberation Mono", monospace !default;
-
-// TYPOGRAPHY
-$base-font-size: 16px !default;
-$regular: 400 !default;
-
-// SPACING
-$space-05: .25rem !default; // 4px
-$space-1: .5rem   !default; // 8px
-$space-2:   1rem  !default; // 16px
-$space-3: 1.5rem  !default; // 24px
-$space-4:   2rem  !default; // 32px
-$space-5:   3rem  !default; // 48px
-$space-6: 4.5rem  !default; // 72px
-```
-
-### Colors
-
-```scss
-// COLORS
+// Having a map of colors is useful if we ever want to programmatically generate "atomic" classes
+// that do things like set background colors.
 $color-map: (
   axios-blue: (
     100: #96d8ff,
@@ -183,14 +152,5 @@ $color-axios-black: $color-gray-900;
 // UI grays
 $color-body-text: $color-gray-800;
 $color-site-background: $color-gray-100;
-```
 
-## Mixins
 
-### prefix
-
-Example:
-
-```scss
-p {@include prefix((transform: translate(-50%, -50%)), webkit ms);}
-```
