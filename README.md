@@ -30,7 +30,6 @@ $space-6: 4.5rem  !default; // 72px
 ### Colors
 
 ```scss
-// COLORS
 $color-map: (
   axios-blue: (
     100: #96d8ff,
@@ -97,6 +96,17 @@ $color-map: (
     700: #696969,
     800: #4a4a4a,
     900: #222222,
+  ),
+  green: (
+    100: #74ffb9,
+    200: #46f5ad,
+    300: #03e59f,
+    400: #00d38f,
+    500: #03c183,
+    600: #00ac79,
+    700: #009a68,
+    800: #00865b,
+    900: #01724c
   ),
 );
 
@@ -176,6 +186,19 @@ $color-gray-600: color-get(gray, 600);
 $color-gray-700: color-get(gray, 700);
 $color-gray-800: color-get(gray, 800);
 $color-gray-900: color-get(gray, 900);
+$color-gray: $color-gray-500;
+
+// Green Tones
+$color-green-100: color-get(green, 100);
+$color-green-200: color-get(green, 200);
+$color-green-300: color-get(green, 300);
+$color-green-400: color-get(green, 400);
+$color-green-500: color-get(green, 500);
+$color-green-600: color-get(green, 600);
+$color-green-700: color-get(green, 700);
+$color-green-800: color-get(green, 800);
+$color-green-900: color-get(green, 900);
+$color-green: $color-green-500;
 
 // Primary Colors
 $color-axios-black: $color-gray-900;
