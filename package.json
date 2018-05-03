@@ -1,6 +1,6 @@
 {
   "name": "axios-feta",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Axios' CSS styleguide and library.",
   "style": "src/feta.scss",
   "repository": {
