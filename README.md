@@ -94,16 +94,16 @@ $color-khaki-700: #a18c72;
 $color-khaki-800: #947f65;
 $color-khaki-900: #846f55;
 
-// Grey Tones
-$color-grey-100: #f5f5f5;
-$color-grey-200: #dcdcdc;
-$color-grey-300: #c2c2c2;
-$color-grey-400: #a9a9a9;
-$color-grey-500: #979797;
-$color-grey-600: #858585;
-$color-grey-700: #696969;
-$color-grey-800: #4a4a4a;
-$color-grey-900: #222222;
+// Gray Tones
+$color-gray-100: #f5f5f5;
+$color-gray-200: #dcdcdc;
+$color-gray-300: #c2c2c2;
+$color-gray-400: #a9a9a9;
+$color-gray-500: #979797;
+$color-gray-600: #858585;
+$color-gray-700: #696969;
+$color-gray-800: #4a4a4a;
+$color-gray-900: #222222;
 
 // Green Tones
 $color-green-100: #74ffb9;
