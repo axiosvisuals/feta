@@ -6,5 +6,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/axioscode/feta/"
-  }
+  },
+  "license": "Apache-2.0",
+  "contributors": [
+    "Alex Duner <duner@axios.com>",
+    "Gerald Rich <gerald@axios.com>",
+    "Chris Barna <chris@axios.com>",
+    "Abby Chen <abby.chen@axios.com>"
+  ]
 }
