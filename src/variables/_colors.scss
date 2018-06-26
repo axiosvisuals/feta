@@ -69,16 +69,27 @@ $color-map: (
     900: #222222,
   ),
   green: (
-    100: #74ffb9,
-    200: #46f5ad,
-    300: #03e59f,
-    400: #00d38f,
-    500: #03c183,
-    600: #00ac79,
-    700: #009a68,
-    800: #00865b,
-    900: #01724c
+    100: #ecfff6,
+    200: #c1f1d1,
+    300: #94e2ac,
+    400: #64d28a,
+    500: #02c266,
+    600: #029d53,
+    700: #027b41,
+    800: #025a30,
+    900: #013b1f,
   ),
+  yellow: (
+    100: #ffffd8,
+    200: #fff6b3,
+    300: #ffeb88,
+    400: #ffe05b,
+    500: #ffd500,
+    600: #fdbc08,
+    700: #faa40e,
+    800: #f78912,
+    900: #f26e14,
+  )
 );
 
 // Writing map-get(map-get(...)) is annoying so this utility function compresses it into a single
@@ -171,6 +182,18 @@ $color-green-700: color-get(green, 700);
 $color-green-800: color-get(green, 800);
 $color-green-900: color-get(green, 900);
 $color-green: $color-green-500;
+
+// Yellow Tones
+$color-yellow-100: color-get(yellow, 100);
+$color-yellow-200: color-get(yellow, 200);
+$color-yellow-300: color-get(yellow, 300);
+$color-yellow-400: color-get(yellow, 400);
+$color-yellow-500: color-get(yellow, 500);
+$color-yellow-600: color-get(yellow, 600);
+$color-yellow-700: color-get(yellow, 700);
+$color-yellow-800: color-get(yellow, 800);
+$color-yellow-900: color-get(yellow, 900);
+$color-yellow: $color-yellow-500;
 
 // Primary Colors
 $color-black: $color-gray-900;

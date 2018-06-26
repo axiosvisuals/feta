@@ -106,15 +106,26 @@ $color-gray-800: #4a4a4a;
 $color-gray-900: #222222;
 
 // Green Tones
-$color-green-100: #74ffb9;
-$color-green-200: #46f5ad;
-$color-green-300: #03e59f;
-$color-green-400: #00d38f;
-$color-green-500: #03c183;
-$color-green-600: #00ac79;
-$color-green-700: #009a68;
-$color-green-800: #00865b;
-$color-green-900: #01724c;
+$color-green-100: #ecfff6;
+$color-green-200: #c1f1d1;
+$color-green-300: #94e2ac;
+$color-green-400: #64d28a;
+$color-green-500: #02c266;
+$color-green-600: #029d53;
+$color-green-700: #027b41;
+$color-green-800: #025a30;
+$color-green-900: #013b1f;
+
+// Yellow Tones
+$color-yellow-100: #ffffd8;
+$color-yellow-200: #fff6b3;
+$color-yellow-300: #ffeb88;
+$color-yellow-400: #ffe05b;
+$color-yellow-500: #ffd500;
+$color-yellow-600: #fdbc08;
+$color-yellow-700: #faa40e;
+$color-yellow-800: #f78912;
+$color-yellow-900: #f26e14;
 ```
 
 ## Mixins
