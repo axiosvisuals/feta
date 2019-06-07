@@ -1,6 +1,6 @@
 {
-  "name": "axios-feta",
-  "version": "0.0.5",
+  "name": "@axioscode/axios-feta",
+  "version": "1.0.0",
   "description": "Axios' CSS styleguide and library.",
   "style": "src/feta.scss",
   "repository": {
@@ -13,5 +13,8 @@
     "Gerald Rich <gerald@axios.com>",
     "Chris Barna <chris@axios.com>",
     "Abby Chen <abby.chen@axios.com>"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
