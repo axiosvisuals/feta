@@ -1,46 +1,48 @@
 @font-face {
-    font-family: 'Gordita';
-    src: url('https://static.axios.com/fonts/gorditaregular-webfont.eot');
-    src: url('https://static.axios.com/fonts/gorditaregular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://static.axios.com/fonts/gorditaregular-webfont.woff2') format('woff2'),
-         url('https://static.axios.com/fonts/gorditaregular-webfont.woff') format('woff'),
-         url('https://static.axios.com/fonts/gorditaregular-webfont.ttf') format('truetype'),
-         url('https://static.axios.com/fonts/gorditaregular-webfont.svg#gorditaregular') format('svg');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'NB International Pro';
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_regular.eot');
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_regular.eot?#iefix') format('embedded-opentype'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_regular.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'Gordita';
-    src: url('https://static.axios.com/fonts/gorditamedium-webfont.eot');
-    src: url('https://static.axios.com/fonts/gorditamedium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://static.axios.com/fonts/gorditamedium-webfont.woff2') format('woff2'),
-         url('https://static.axios.com/fonts/gorditamedium-webfont.woff') format('woff'),
-         url('https://static.axios.com/fonts/gorditamedium-webfont.ttf') format('truetype'),
-         url('https://static.axios.com/fonts/gorditamedium-webfont.svg#gorditamedium') format('svg');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'NB International Pro';
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_bold.eot');
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_bold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_bold.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'Atiza';
-    src: url('https://static.axios.com/fonts/atizatext-regular-webfont.eot');
-    src: url('https://static.axios.com/fonts/atizatext-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://static.axios.com/fonts/atizatext-regular-webfont.woff2') format('woff2'),
-         url('https://static.axios.com/fonts/atizatext-regular-webfont.woff') format('woff'),
-         url('https://static.axios.com/fonts/atizatext-regular-webfont.ttf') format('truetype'),
-         url('https://static.axios.com/fonts/atizatext-regular-webfont.svg#atizaregular') format('svg');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'NB International Pro Mono';
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_mono.eot');
+  src: url('https://static.axios.com/fonts/axios-site/nb_international_pro_mono.eot?#iefix') format('embedded-opentype'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_mono.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/nb_international_pro_mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'Liberation Mono';
-    src: url('https://static.axios.com/fonts/liberationmono-regular-webfont.eot');
-    src: url('https://static.axios.com/fonts/liberationmono-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://static.axios.com/fonts/liberationmono-regular-webfont.woff') format('woff'),
-         url('https://static.axios.com/fonts/liberationmono-regular-webfont.ttf') format('truetype'),
-         url('https://static.axios.com/fonts/liberationmono-regular-webfont.svg#liberation_mono') format('svg');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Atiza';
+  src: url('https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Atiza';
+  src: url('https://static.axios.com/fonts/axios-site/atiza/atizatext-regularitalic-webfont.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/atiza/atizatext-regularitalic-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Atiza';
+  src: url('https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.woff') format('woff'),
+       url('https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
