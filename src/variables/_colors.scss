@@ -1,7 +1,7 @@
 // Having a map of colors is useful if we ever want to programmatically generate "atomic" classes
 // that do things like set background colors.
 $color-map: (
-  mint: (
+  green: (
     100: #caffdc,
     200: #98f0c0,
     300: #65e2a4,
@@ -34,7 +34,7 @@ $color-map: (
     800: #300d8c,
     900: #1e0066,
   ),
-  salmon: (
+  red: (
     100: #ffd9d9,
     200: #ffb6ab,
     300: #ff937c,
@@ -45,7 +45,7 @@ $color-map: (
     800: #8c1408,
     900: #660000,
   ),
-  rust: (
+  orange: (
     100: #ffe5bb,
     200: #ffca8c,
     300: #ffaf5e,
@@ -56,7 +56,7 @@ $color-map: (
     800: #8c4200,
     900: #663000,
   ),
-  ochre: (
+  yellow: (
     100: #fdffab,
     200: #fee986,
     300: #fed260,
@@ -78,7 +78,7 @@ $color-map: (
     800: #7d7355,
     900: #685f4d,
   ),
-  coffee: (
+  brown: (
     100: #efcd8b,
     200: #d3b27a,
     300: #b79769,
@@ -90,6 +90,7 @@ $color-map: (
     900: #301905,
   ),
   gray: (
+    50: #f5f5f5,
     100: #e6e7e8,
     200: #cfd0d0,
     300: #b8b8b9,
@@ -108,17 +109,17 @@ $color-map: (
   @return map-get(map-get($color-map, $color), $saturation)
 }
 
-// Mint
-$color-mint-100: color-get(mint, 100);
-$color-mint-200: color-get(mint, 200);
-$color-mint-300: color-get(mint, 300);
-$color-mint-400: color-get(mint, 400);
-$color-mint-500: color-get(mint, 500);
-$color-mint-600: color-get(mint, 600);
-$color-mint-700: color-get(mint, 700);
-$color-mint-800: color-get(mint, 800);
-$color-mint-900: color-get(mint, 900);
-$color-mint: $color-mint-500;
+// Green
+$color-green-100: color-get(green, 100);
+$color-green-200: color-get(green, 200);
+$color-green-300: color-get(green, 300);
+$color-green-400: color-get(green, 400);
+$color-green-500: color-get(green, 500);
+$color-green-600: color-get(green, 600);
+$color-green-700: color-get(green, 700);
+$color-green-800: color-get(green, 800);
+$color-green-900: color-get(green, 900);
+$color-green: $color-green-500;
 
 // Blue
 $color-blue-100: color-get(blue, 100);
@@ -144,41 +145,41 @@ $color-purple-800: color-get(purple, 800);
 $color-purple-900: color-get(purple, 900);
 $color-purple: $color-purple-500;
 
-// Salmon
-$color-salmon-100: color-get(salmon, 100);
-$color-salmon-200: color-get(salmon, 200);
-$color-salmon-300: color-get(salmon, 300);
-$color-salmon-400: color-get(salmon, 400);
-$color-salmon-500: color-get(salmon, 500);
-$color-salmon-600: color-get(salmon, 600);
-$color-salmon-700: color-get(salmon, 700);
-$color-salmon-800: color-get(salmon, 800);
-$color-salmon-900: color-get(salmon, 900);
-$color-salmon: $color-salmon-500;
+// Red
+$color-red-100: color-get(red, 100);
+$color-red-200: color-get(red, 200);
+$color-red-300: color-get(red, 300);
+$color-red-400: color-get(red, 400);
+$color-red-500: color-get(red, 500);
+$color-red-600: color-get(red, 600);
+$color-red-700: color-get(red, 700);
+$color-red-800: color-get(red, 800);
+$color-red-900: color-get(red, 900);
+$color-red: $color-red-500;
 
-// Rust
-$color-rust-100: color-get(rust, 100);
-$color-rust-200: color-get(rust, 200);
-$color-rust-300: color-get(rust, 300);
-$color-rust-400: color-get(rust, 400);
-$color-rust-500: color-get(rust, 500);
-$color-rust-600: color-get(rust, 600);
-$color-rust-700: color-get(rust, 700);
-$color-rust-800: color-get(rust, 800);
-$color-rust-900: color-get(rust, 900);
-$color-rust: $color-rust-500;
+// Orange
+$color-orange-100: color-get(orange, 100);
+$color-orange-200: color-get(orange, 200);
+$color-orange-300: color-get(orange, 300);
+$color-orange-400: color-get(orange, 400);
+$color-orange-500: color-get(orange, 500);
+$color-orange-600: color-get(orange, 600);
+$color-orange-700: color-get(orange, 700);
+$color-orange-800: color-get(orange, 800);
+$color-orange-900: color-get(orange, 900);
+$color-orange: $color-orange-500;
 
-// Ochre
-$color-ochre-100: color-get(ochre, 100);
-$color-ochre-200: color-get(ochre, 200);
-$color-ochre-300: color-get(ochre, 300);
-$color-ochre-400: color-get(ochre, 400);
-$color-ochre-500: color-get(ochre, 500);
-$color-ochre-600: color-get(ochre, 600);
-$color-ochre-700: color-get(ochre, 700);
-$color-ochre-800: color-get(ochre, 800);
-$color-ochre-900: color-get(ochre, 900);
-$color-ochre: $color-ochre-500;
+// Yellow
+$color-yellow-100: color-get(yellow, 100);
+$color-yellow-200: color-get(yellow, 200);
+$color-yellow-300: color-get(yellow, 300);
+$color-yellow-400: color-get(yellow, 400);
+$color-yellow-500: color-get(yellow, 500);
+$color-yellow-600: color-get(yellow, 600);
+$color-yellow-700: color-get(yellow, 700);
+$color-yellow-800: color-get(yellow, 800);
+$color-yellow-900: color-get(yellow, 900);
+$color-yellow: $color-yellow-500;
 
 // Khaki
 $color-khaki-100: color-get(khaki, 100);
@@ -192,19 +193,20 @@ $color-khaki-800: color-get(khaki, 800);
 $color-khaki-900: color-get(khaki, 900);
 $color-khaki: $color-khaki-500;
 
-// Coffee
-$color-coffee-100: color-get(coffee, 100);
-$color-coffee-200: color-get(coffee, 200);
-$color-coffee-300: color-get(coffee, 300);
-$color-coffee-400: color-get(coffee, 400);
-$color-coffee-500: color-get(coffee, 500);
-$color-coffee-600: color-get(coffee, 600);
-$color-coffee-700: color-get(coffee, 700);
-$color-coffee-800: color-get(coffee, 800);
-$color-coffee-900: color-get(coffee, 900);
-$color-coffee: $color-coffee-500;
+// Brown
+$color-brown-100: color-get(brown, 100);
+$color-brown-200: color-get(brown, 200);
+$color-brown-300: color-get(brown, 300);
+$color-brown-400: color-get(brown, 400);
+$color-brown-500: color-get(brown, 500);
+$color-brown-600: color-get(brown, 600);
+$color-brown-700: color-get(brown, 700);
+$color-brown-800: color-get(brown, 800);
+$color-brown-900: color-get(brown, 900);
+$color-brown: $color-brown-500;
 
 // Gray
+$color-gray-50: color-get(gray, 50);
 $color-gray-100: color-get(gray, 100);
 $color-gray-200: color-get(gray, 200);
 $color-gray-300: color-get(gray, 300);
@@ -222,5 +224,3 @@ $color-black: $color-gray-900;
 // UI grays
 $color-body-text: #333335;
 $color-body-text-light: #737376;
-
-
