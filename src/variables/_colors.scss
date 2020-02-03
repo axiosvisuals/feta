@@ -100,6 +100,106 @@ $color-map: (
     700: #626262,
     800: #4e4e4e,
     900: #3a3a3a,
+  ),
+  // Retired data prefixed names
+  data-mint: (
+    100: #caffdc,
+    200: #98f0c0,
+    300: #65e2a4,
+    400: #33d387,
+    500: #00c46b,
+    600: #00ab58,
+    700: #009144,
+    800: #007831,
+    900: #005e1d,
+  ),
+  data-blue: (
+    100: #bbf2ff,
+    200: #92ddff,
+    300: #68c9ff,
+    400: #3fb4ff,
+    500: #15a0ff,
+    600: #1085df,
+    700: #0b6abf,
+    800: #054f9f,
+    900: #00347f,
+  ),
+  data-purple: (
+    100: #ded2ff,
+    200: #c0aaff,
+    300: #a283ff,
+    400: #835bff,
+    500: #6533ff,
+    600: #5326d9,
+    700: #421ab3,
+    800: #300d8c,
+    900: #1e0066,
+  ),
+  data-salmon: (
+    100: #ffd9d9,
+    200: #ffb6ab,
+    300: #ff937c,
+    400: #ff714e,
+    500: #ff4e1f,
+    600: #d93b17,
+    700: #b32710,
+    800: #8c1408,
+    900: #660000,
+  ),
+  data-rust: (
+    100: #ffe5bb,
+    200: #ffca8c,
+    300: #ffaf5e,
+    400: #ff942f,
+    500: #ff7900,
+    600: #d96700,
+    700: #b35500,
+    800: #8c4200,
+    900: #663000,
+  ),
+  data-ochre: (
+    100: #fdffab,
+    200: #fee986,
+    300: #fed260,
+    400: #ffbc3b,
+    500: #ffa515,
+    600: #e19310,
+    700: #c3810b,
+    800: #a56f05,
+    900: #875d00,
+  ),
+  data-khaki: (
+    100: #f4edd3,
+    200: #e6ddba,
+    300: #d8cda0,
+    400: #cabd86,
+    500: #bcad6d,
+    600: #a79a65,
+    700: #92865d,
+    800: #7d7355,
+    900: #685f4d,
+  ),
+  data-coffee: (
+    100: #efcd8b,
+    200: #d3b27a,
+    300: #b79769,
+    400: #9b7c57,
+    500: #7f6146,
+    600: #6b4f36,
+    700: #583d26,
+    800: #442b15,
+    900: #301905,
+  ),
+  data-gray: (
+    100: #e6e7e8,
+    200: #cfd0d0,
+    300: #b8b8b9,
+    400: #a0a1a1,
+    500: #898989,
+    600: #757575,
+    700: #626262,
+    800: #4e4e4e,
+    900: #3a3a3a,
   )
 );
 
@@ -224,3 +324,115 @@ $color-black: $color-gray-900;
 // UI grays
 $color-body-text: #333335;
 $color-body-text-light: #737376;
+
+////////////////////////////////////////////
+// Retired data prefixed names
+////////////////////////////////////////////
+
+// Mint
+$color-data-mint-100: color-get(data-mint, 100);
+$color-data-mint-200: color-get(data-mint, 200);
+$color-data-mint-300: color-get(data-mint, 300);
+$color-data-mint-400: color-get(data-mint, 400);
+$color-data-mint-500: color-get(data-mint, 500);
+$color-data-mint-600: color-get(data-mint, 600);
+$color-data-mint-700: color-get(data-mint, 700);
+$color-data-mint-800: color-get(data-mint, 800);
+$color-data-mint-900: color-get(data-mint, 900);
+$color-data-mint: $color-data-mint-500;
+
+// Blue
+$color-data-blue-100: color-get(data-blue, 100);
+$color-data-blue-200: color-get(data-blue, 200);
+$color-data-blue-300: color-get(data-blue, 300);
+$color-data-blue-400: color-get(data-blue, 400);
+$color-data-blue-500: color-get(data-blue, 500);
+$color-data-blue-600: color-get(data-blue, 600);
+$color-data-blue-700: color-get(data-blue, 700);
+$color-data-blue-800: color-get(data-blue, 800);
+$color-data-blue-900: color-get(data-blue, 900);
+$color-data-blue: $color-data-blue-500;
+
+// Purple
+$color-data-purple-100: color-get(data-purple, 100);
+$color-data-purple-200: color-get(data-purple, 200);
+$color-data-purple-300: color-get(data-purple, 300);
+$color-data-purple-400: color-get(data-purple, 400);
+$color-data-purple-500: color-get(data-purple, 500);
+$color-data-purple-600: color-get(data-purple, 600);
+$color-data-purple-700: color-get(data-purple, 700);
+$color-data-purple-800: color-get(data-purple, 800);
+$color-data-purple-900: color-get(data-purple, 900);
+$color-data-purple: $color-data-purple-500;
+
+// Salmon
+$color-data-salmon-100: color-get(data-salmon, 100);
+$color-data-salmon-200: color-get(data-salmon, 200);
+$color-data-salmon-300: color-get(data-salmon, 300);
+$color-data-salmon-400: color-get(data-salmon, 400);
+$color-data-salmon-500: color-get(data-salmon, 500);
+$color-data-salmon-600: color-get(data-salmon, 600);
+$color-data-salmon-700: color-get(data-salmon, 700);
+$color-data-salmon-800: color-get(data-salmon, 800);
+$color-data-salmon-900: color-get(data-salmon, 900);
+$color-data-salmon: $color-data-salmon-500;
+
+// Rust
+$color-data-rust-100: color-get(data-rust, 100);
+$color-data-rust-200: color-get(data-rust, 200);
+$color-data-rust-300: color-get(data-rust, 300);
+$color-data-rust-400: color-get(data-rust, 400);
+$color-data-rust-500: color-get(data-rust, 500);
+$color-data-rust-600: color-get(data-rust, 600);
+$color-data-rust-700: color-get(data-rust, 700);
+$color-data-rust-800: color-get(data-rust, 800);
+$color-data-rust-900: color-get(data-rust, 900);
+$color-data-rust: $color-data-rust-500;
+
+// Ochre
+$color-data-ochre-100: color-get(data-ochre, 100);
+$color-data-ochre-200: color-get(data-ochre, 200);
+$color-data-ochre-300: color-get(data-ochre, 300);
+$color-data-ochre-400: color-get(data-ochre, 400);
+$color-data-ochre-500: color-get(data-ochre, 500);
+$color-data-ochre-600: color-get(data-ochre, 600);
+$color-data-ochre-700: color-get(data-ochre, 700);
+$color-data-ochre-800: color-get(data-ochre, 800);
+$color-data-ochre-900: color-get(data-ochre, 900);
+$color-data-ochre: $color-data-ochre-500;
+
+// Khaki
+$color-data-khaki-100: color-get(data-khaki, 100);
+$color-data-khaki-200: color-get(data-khaki, 200);
+$color-data-khaki-300: color-get(data-khaki, 300);
+$color-data-khaki-400: color-get(data-khaki, 400);
+$color-data-khaki-500: color-get(data-khaki, 500);
+$color-data-khaki-600: color-get(data-khaki, 600);
+$color-data-khaki-700: color-get(data-khaki, 700);
+$color-data-khaki-800: color-get(data-khaki, 800);
+$color-data-khaki-900: color-get(data-khaki, 900);
+$color-data-khaki: $color-data-khaki-500;
+
+// Coffee
+$color-data-coffee-100: color-get(data-coffee, 100);
+$color-data-coffee-200: color-get(data-coffee, 200);
+$color-data-coffee-300: color-get(data-coffee, 300);
+$color-data-coffee-400: color-get(data-coffee, 400);
+$color-data-coffee-500: color-get(data-coffee, 500);
+$color-data-coffee-600: color-get(data-coffee, 600);
+$color-data-coffee-700: color-get(data-coffee, 700);
+$color-data-coffee-800: color-get(data-coffee, 800);
+$color-data-coffee-900: color-get(data-coffee, 900);
+$color-data-coffee: $color-data-coffee-500;
+
+// Gray
+$color-data-gray-100: color-get(data-gray, 100);
+$color-data-gray-200: color-get(data-gray, 200);
+$color-data-gray-300: color-get(data-gray, 300);
+$color-data-gray-400: color-get(data-gray, 400);
+$color-data-gray-500: color-get(data-gray, 500);
+$color-data-gray-600: color-get(data-gray, 600);
+$color-data-gray-700: color-get(data-gray, 700);
+$color-data-gray-800: color-get(data-gray, 800);
+$color-data-gray-900: color-get(data-gray, 900);
+$color-data-gray: $color-data-gray-500;
