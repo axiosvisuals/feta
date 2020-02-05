@@ -9,9 +9,9 @@ Variables cam be edited in `src/variables`
 
 ```scss
 // FONTS
-$sans: "Gordita", Helvetica, Arial, sans-serif !default;
-$serif: "Atiza", Georgia, serif !default;
-$mono: "Liberation Mono", monospace !default;
+$sans: 'NB International Pro', 'Helvetica', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif !default;
+$serif: 'Atiza', Georgia, serif !default;
+$mono: 'NB International Pro Mono', 'Helvetica', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif !default;
 
 // TYPOGRAPHY
 $base-font-size: 16px !default;
